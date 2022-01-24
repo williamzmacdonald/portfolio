@@ -1,16 +1,8 @@
-import { Bio } from "./components/Bio/Bio";
-import { Header } from "./components/Header/Header";
+import { HomePage } from "./pages";
 import "./styles/globals.css";
 
 function App() {
-    return (
-        <div className="bg-slate-900 h-screen flex justify-center">
-            <div className="w-1/2">
-                <Header />
-                <Bio />
-            </div>
-        </div>
-    );
+    return <HomePage />;
 }
 
 export default App;

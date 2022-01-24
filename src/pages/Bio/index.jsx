@@ -1,10 +1,8 @@
-import avatar from "./avatar.jfif";
-
 export const Bio = () => {
     return (
         <div className="flex">
             <img
-                src={avatar}
+                src={`${process.env.PUBLIC_URL}/avatar.jfif`}
                 alt="me"
                 className="w-16 h-auto block rounded-full"
             />
